@@ -26,6 +26,7 @@ body {
 .container-value {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container-value div {
