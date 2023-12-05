@@ -25,7 +25,7 @@ body {
 
 .container-value {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .container-value div {
