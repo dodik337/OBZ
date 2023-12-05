@@ -10,7 +10,7 @@ body {
 
 * {
     color: white;
-    transition: 0.2s;
+    transition: .2s;
     box-sizing: border-box;
 }
 
@@ -25,12 +25,13 @@ body {
 
 .container-value {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container-value div {
     margin: 12px;
-    width: 50%;
+    width: 100%;
 }
 
 .container-value .image img {
